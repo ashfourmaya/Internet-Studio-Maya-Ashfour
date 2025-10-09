@@ -1,3 +1,13 @@
+html {
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/watercolor.png');
+  background-repeat: repeat;
+	background-color: #ffffff;
+}
+
+
+
+
+
 h1, h2, h3 {
 	font-family: "Oswald", sans-serif;
 }
