@@ -18,30 +18,30 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 h1 {
-            color: #FF0000;
+            color: #FFC0CB;
         
         }
         h2 {
-            color: #00FF00;
+            color: #FFB6C1;
            
         }
    
         h3 {
-            color: #0000FF;
+            color: #FF69B4;
            
         }
    
         h4 {
-            color: #808080;
+            color: #FF1493;
            
         }
    
         h5 {
-            color: #FFFF00;
+            color: #DB7093;
            
         }
    
         h6 {
-            color: #800080;
+            color: #FF00FF;
            
         }
