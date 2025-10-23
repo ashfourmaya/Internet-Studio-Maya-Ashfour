@@ -47,6 +47,19 @@ h1,
   font-size: 2.37em;
 }
 
+
+h1 {
+            color: #ADD7F6;
+        
+        }
+h2 {
+  color: #87BFFF
+}
+
+h2 {
+  color: #3F8EFC
+}
+
 h2,
 .text-size-h2 { font-size: 2.37em; }
 
