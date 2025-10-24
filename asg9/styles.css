@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+nav ul li {
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 5px;
+}
