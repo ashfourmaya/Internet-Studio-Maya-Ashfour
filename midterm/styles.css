@@ -41,4 +41,15 @@ header, footer {
   box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
 }
 
+nav a {
+	/*transition: all .2s; */
+	transition: transform .5s, background-color 1s ease-in .2s;
+}
+
+
+
+nav a:hover {
+	background-color: pink;
+	transform: scale(1.1);
+}
 
