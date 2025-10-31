@@ -31,3 +31,12 @@ header, footer {
   from { background-position: 0 0; }
   to { background-position: 0 -100px; }
 }
+
+.home-photo {
+  width: 80%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+}
