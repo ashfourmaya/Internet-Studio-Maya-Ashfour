@@ -15,19 +15,19 @@ header, footer {
   background-color: var(--pink-medium);
   color: var(--accent);
 }
-
-button, .cta {
-  background-color: var(--pink-medium);
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 25px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+.sparkles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(255,255,255,0.6) 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: sparkleMove 8s linear infinite;
 }
 
-button:hover, .cta:hover {
-  box-shadow: 0 0 20px var(--pink-dark);
-  transform: scale(1.05);
+@keyframes sparkleMove {
+  from { background-position: 0 0; }
+  to { background-position: 0 -100px; }
 }
