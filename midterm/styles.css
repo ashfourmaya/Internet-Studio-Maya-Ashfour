@@ -1,1 +1,17 @@
-
+:root {
+  --pink-light: #ffe4f2;
+  --pink-medium: #ff8dc7;
+  --pink-dark: #e75480;
+  --accent: #ffffff;
+  --text-color: #4a154b;
+  --button-hover: #ffb6d9;
+}
+body {
+  background-color: var(--pink-light);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+}
+header, footer {
+  background-color: var(--pink-medium);
+  color: var(--accent);
+}
