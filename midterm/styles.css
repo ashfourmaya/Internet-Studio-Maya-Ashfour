@@ -15,3 +15,19 @@ header, footer {
   background-color: var(--pink-medium);
   color: var(--accent);
 }
+
+button, .cta {
+  background-color: var(--pink-medium);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover, .cta:hover {
+  box-shadow: 0 0 20px var(--pink-dark);
+  transform: scale(1.05);
+}
