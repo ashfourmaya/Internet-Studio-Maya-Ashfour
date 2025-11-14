@@ -1,25 +1,46 @@
-/* 
-      .--..--..--..--..--..--.
-    .' \  (`._   (_)     _   \
-  .'    |  '._)         (_)  |
-  \ _.')\      .----..---.   /
-  |(_.'  |    /    .-\-.  \  |
-  \     0|    |   ( O| O) | o|
-   |  _  |  .--.____.'._.-.  |
-   \ (_) | o         -` .-`  |
-    |    \   |`-._ _ _ _ _\ /
-    \    |   |  `. |_||_|   |
-    | o  |    \_      \     |     -.   .-.
-    |.-.  \     `--..-'   O |     `.`-' .'
-  _.'  .' |     `-.-'      /-.__   ' .-'
-.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
-`-._  `.  |________/\_____|    `-.'
-   .'   ).| '=' '='\/ '=' |
-   `._.`  '---------------'
-           //___\   //___\
-             ||       ||
-             ||_.-.   ||_.-.
-            (_.--__) (_.--__)
-       
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
 
- Insert all your glorious CSS styles below! */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.movie-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.movie-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.movie-desc {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+}
