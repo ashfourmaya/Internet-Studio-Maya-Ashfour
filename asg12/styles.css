@@ -1,4 +1,4 @@
-
+           
 body {
     font-family: 'Poppins', sans-serif;   /* Clean sans-serif */
     background: url('https://cdn.jsdelivr.net/gh/bgjar/barrel-stacked.svg') no-repeat center center fixed;
@@ -9,7 +9,7 @@ body {
 
 body {
     margin: 0;
-    background-image: url("assets/curtain.jpg");
+    background-image: <img src="images/curatin.jpg">;
     background-repeat: no-repeat;
     background-size: cover;      /* makes it fill the screen */
     background-position: center; /* centers it */
