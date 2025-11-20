@@ -9,7 +9,7 @@ body {
 
 body {
     margin: 0;
-    background-image: url("images/yourimage.jpg");
+    background-image: url("images/curtain.jpg");
     background-size: cover;       /* makes the image fill the screen */
     background-position: center;  /* centers the image */
     background-repeat: no-repeat; /* prevents tiling */
