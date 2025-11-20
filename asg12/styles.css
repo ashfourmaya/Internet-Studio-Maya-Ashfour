@@ -9,12 +9,12 @@ body {
 
 body {
     margin: 0;
-    background-image: <img src="images/curatin.jpg">;
-    background-repeat: no-repeat;
-    background-size: cover;      /* makes it fill the screen */
-    background-position: center; /* centers it */
-    background-attachment: fixed; 
+    background-image: url("images/yourimage.jpg");
+    background-size: cover;       /* makes the image fill the screen */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* prevents tiling */
 }
+
 
 
 h1 {
