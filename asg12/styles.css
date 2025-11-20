@@ -7,6 +7,16 @@ body {
     color: #2a2a2a;
 }
 
+body {
+    margin: 0;
+    background-image: url("assets/curtain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;      /* makes it fill the screen */
+    background-position: center; /* centers it */
+    background-attachment: fixed; 
+}
+
+
 h1 {
     font-family: 'Lora', serif;           /* Elegant serif */
     text-align: center;
