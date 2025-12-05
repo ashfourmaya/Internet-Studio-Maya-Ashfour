@@ -122,16 +122,5 @@ p{
   text-decoration:underline;
 }
 
-/* ----------------------------------------------------------
-   FOOTER
------------------------------------------------------------ */
-.site-footer{
-  text-align:center;
-  padding:20px 0;
-  font-size:0.9em;
-  color: var(--text-muted);
-}
-
-
 
 
