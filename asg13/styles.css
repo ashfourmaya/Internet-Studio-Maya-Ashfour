@@ -1,55 +1,136 @@
-/* Some selectors to get you started */
+/* ----------------------------------------------------------
+   GLOBAL SETTINGS & COLOR PALETTE
+----------------------------------------------------------- */
 
-body {
-
-
+:root{
+  --bg-cream: #faf5f1;
+  --soft-pink: #e9b7c8;
+  --rose: #d8849c;
+  --deep-charcoal: #2b2b2b;
+  --text-muted: #6e6e6e;
+  --card-bg: #ffffff;
 }
 
-
-
-h1 {
-
-
+/* Global body styling */
+body{
+  margin:0;
+  padding:0;
+  font-family:'Inter', sans-serif;
+  background: var(--bg-cream) url('images/background-texture.jpg') repeat;
+  color: var(--deep-charcoal);
+  line-height:1.6;
+  font-size: 18px;
 }
 
-h2 {
-
-	
+.container{
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
 }
 
-h3 {
+/* ----------------------------------------------------------
+   HEADERS & TYPOGRAPHY
+----------------------------------------------------------- */
 
-	
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight:700;
+  margin-bottom: 0.3em;
+  color: var(--rose);
 }
 
-
-p {
-
-
+h2{
+  font-family:'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-top:0;
+  color: var(--deep-charcoal);
 }
 
-a {
-
-
+p{
+  font-size: 1em;
+  color: var(--text-muted);
 }
 
-ol {
-
-
+/* Subtitle */
+.subtitle{
+  font-size: 1.1em;
+  color: var(--text-muted);
 }
 
-ul {
-
-
+/* ----------------------------------------------------------
+   HEADER AREA
+----------------------------------------------------------- */
+.site-header{
+  text-align:center;
+  padding:40px 0;
+  background: url('images/header-bg.jpg') center/cover no-repeat;
+  color:#fff;
 }
 
-li {
-
-	
+/* ----------------------------------------------------------
+   CARDS
+----------------------------------------------------------- */
+.card{
+  background: var(--card-bg);
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
 }
 
+/* ----------------------------------------------------------
+   JOB LISTINGS — CSS GRID
+----------------------------------------------------------- */
 
+.jobs-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
 
+/* With wider screens, show 2 columns */
+@media(min-width: 850px){
+  .jobs-grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/* Job cards */
+.job{
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 15px;
+  align-items: start;
+}
+
+/* Company logo */
+.company-logo{
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
+
+/* Job link */
+.job a{
+  color: var(--rose);
+  font-weight:600;
+  text-decoration:none;
+}
+
+.job a:hover{
+  text-decoration:underline;
+}
+
+/* ----------------------------------------------------------
+   FOOTER
+----------------------------------------------------------- */
+.site-footer{
+  text-align:center;
+  padding:20px 0;
+  font-size:0.9em;
+  color: var(--text-muted);
+}
 
 
 
